@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page of the Department of Chemistry, SRM TRP Engineering College.">
+    <title>Home | Department of Chemistry</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip" href="#main-content">Skip to main content</a>
+    <header>
+      <h1>Department of Chemistry (Science &amp; Humanities)</h1>
+      <p>SRM TRP Engineering College, Tiruchirappalli</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="evidence.html">Unit 1 Evidence</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section id="welcome">
+        <h2>Understand matter. Protect the environment.</h2>
+        <figure>
+          <img src="images/chem-banner.png" alt="Department banner showing a benzene ring molecule and a conical flask" width="1200" height="450">
+          <figcaption>Figure 1: A benzene ring, one of the first molecules our students study.</figcaption>
+        </figure>
+        <p>The Department of Chemistry teaches <strong>engineering chemistry</strong> and <strong>environmental science</strong> to first-year students of every engineering branch. Our courses join clear theory with <em>hands-on 
+laboratory work</em> on water quality, materials and green technology.</p>
+      </section>
+      <section id="highlights">
+        <h2>Highlights</h2>
+        <ul>
+          <li>Engineering Chemistry and Environmental Science courses for all branches</li>
+          <li>Chemistry laboratory with titration, spectroscopy and water-analysis kits</li>
+          <li>Environmental awareness programmes and campus water-testing drives</li>
+          <li>Student chemistry club and an annual science exhibition stall</li>
+        </ul>
+      </section>
+      <section id="explore">
+        <h2>Explore the department</h2>
+        <ol>
+          <li><a href="about.html">Read about our history, mission and laboratories</a></li>
+          <li><a href="courses.html">View the course and laboratory sessions table</a></li>
+          <li><a href="contact.html">Find our address and office hours</a></li>
+        </ol>
+        <p><a href="register.html"><strong>Register for the laboratory visit</strong></a> to meet faculty and see the experiments.</p>
+      </section>
+      <aside>
+        <h2>Department tour</h2>
+        <video controls width="640" height="360" preload="metadata" poster="images/tour-poster.png">
+          <source src="media/department-tour.webm" type="video/webm">
+          <source src="media/department-tour.mp4" type="video/mp4">
+          <track src="media/department-tour.vtt" kind="captions" srclang="en" label="English" default>
+          Your browser does not support the video element. Read the <a href="media/department-tour.vtt">tour transcript</a>.   </video>
+        <p class="hint">The video has English captions. A text transcript is also available.</p>
+      </aside>
+    </main>
+    <footer>
+      <p><small>&copy; <time datetime="2026">2026</time> Department of Chemistry, SRM TRP Engineering College. Student project for 2611CSSJ102 Web Essentials.</small></p>
+    </footer>
+  </body>
+</html><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="History, mission, laboratories and contact summary of the Department of Chemistry.">
+    <title>About | Department of Chemistry</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip" href="#main-content">Skip to main content</a>
+    <header>
+      <h1>Department of Chemistry (Science &amp; Humanities)</h1>
+      <p>SRM TRP Engineering College, Tiruchirappalli</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="evidence.html">Unit 1 Evidence</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <article id="history">
+        <h2>Our History</h2>
+        <p>The department was set up with the first batch of engineering students and now teaches chemistry to every first-year class. Its courses begin in <time datetime="2026-08">August 2026</time> for the odd semester and focus 
+on <strong>applied chemistry</strong> for engineers.</p>
+        <blockquote cite="https://example.edu/chemistry/about.html">
+          <p>Chemistry explains why materials behave as they do.</p>
+        </blockquote>
+        <p>&mdash; Head of the Department, at the laboratory inauguration.</p>
+      </article>
+      <section id="mission">
+        <h2>Mission and Objectives</h2>
+        <ul>
+          <li>Teach the chemistry behind water, fuels, polymers and batteries, such as 2H<sub>2</sub> + O<sub>2</sub> &rarr; 2H<sub>2</sub>O.</li>
+          <li>Train students to measure hardness, pH and dissolved CO<sub>2</sub> accurately, using <var>M</var><sub>1</sub><var>V</var><sub>1</sub> = <var>M</var><sub>2</sub><var>V</var><sub>2</sub> for titration.</li>
+          <li>Promote <mark>safe laboratory practice</mark> and care for the environment.</li>
+        </ul>
+        <p>As our students say, <q>a clean result starts with a clean flask</q>.</p>
+      </section>
+      <section id="facilities">
+        <h2>Laboratories and Facilities</h2>
+        <figure>
+          <img src="images/chem-lab.png" alt="Illustration of the chemistry laboratory bench with four conical flasks and a beaker holding coloured solutions" width="800" height="450">
+          <figcaption>Figure 2: The Chemistry Laboratory bench.</figcaption>
+        </figure>
+        <dl>
+          <dt>Engineering Chemistry Laboratory</dt>
+          <dd>Burettes, pH meters and conductivity meters for volumetric and instrumental analysis.</dd>
+          <dt>Environmental Science Laboratory</dt>
+          <dd>Water-testing kits for hardness, alkalinity and dissolved oxygen.</dd>
+          <dt>Department Library</dt>
+          <dd>Reference books on applied chemistry, corrosion science and green technology.</dd>
+        </dl><h3>Sample calculation shown in our first lab</h3>
+        <pre><code>Hardness (ppm) = (V x M x 100000) / sample_volume_ml
+print(hardness)</code></pre>
+        </section>
+        <section id="contact-summary">
+          <h2>Contact Summary</h2>
+          <p>Office: Science and Humanities Block, Ground Floor. Email <a href="mailto:chemistry@example.edu">chemistry@example.edu</a>. Full details are on the <a href="contact.html">contact page</a>.</p>
+        </section>
+      </main>
+      <footer>
+        <p><small>&copy; <time datetime="2026">2026</time> Department of Chemistry, SRM TRP Engineering College. Student project for 2611CSSJ102 Web Essentials.</small></p>
+      </footer>
+    </body>
+  </html><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Courses and laboratory sessions offered by the Department of Chemistry.">
+    <title>Courses | Department of Chemistry</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip" href="#main-content">Skip to main content</a>
+    <header>
+      <h1>Department of Chemistry (Science &amp; Humanities)</h1>
+      <p>SRM TRP Engineering College, Tiruchirappalli</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html" aria-current="page">Courses</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="evidence.html">Unit 1 Evidence</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section id="course-table">
+        <h2>Courses and Laboratory Sessions</h2>
+        <p>The table lists first-year courses offered by the department. Each row is one course; the first column names the course, and the following columns give its semester, credits and weekly hours. Laboratory courses have 
+separate theory and practical hours.</p>
+        <div class="table-wrap">
+          <table>
+            <caption>Table 1: First-year chemistry courses, credits and weekly hours</caption>
+            <thead>
+              <tr><th scope="col" rowspan="2">Course</th><th scope="col" rowspan="2">Semester</th><th scope="col" rowspan="2">Credits</th><th scope="colgroup" colspan="2">Hours per week</th></tr>
+              <tr><th scope="col">Theory</th><th scope="col">Practical</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Engineering Chemistry</th><td>I</td><td>3</td><td>3</td><td>0</td></tr>
+              <tr><th scope="row">Chemistry Laboratory</th><td>I</td><td>1</td><td>0</td><td>2</td></tr>
+              <tr><th scope="row">Environmental Science and Engineering</th><td>II</td><td>2</td><td>2</td><td>0</td></tr>
+              <tr><th scope="row">Applied Chemistry Laboratory</th><td>II</td><td>1</td><td>0</td><td>2</td></tr>
+              <tr><th scope="row">Green Chemistry Seminar</th><td>II</td><td>1</td><td colspan="2">Fortnightly two-hour seminar</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="hint">Credits are earned on passing the end-semester examination. Hours may change slightly each year.</p>
+      </section>
+    </main>
+    <footer>
+      <p><small>&copy; <time datetime="2026">2026</time> Department of Chemistry, SRM TRP Engineering College. Student project for 2611CSSJ102 Web Essentials.</small></p>
+    </footer>
+  </body>
+  </html>
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laboratory visit registration form of the Department of Chemistry.">
+    <title>Register | Department of Chemistry</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip" href="#main-content">Skip to main content</a>
+    <header>
+      <h1>Department of Chemistry (Science &amp; Humanities)</h1>
+      <p>SRM TRP Engineering College, Tiruchirappalli</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="register.html" aria-current="page">Register</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="evidence.html">Unit 1 Evidence</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section id="registration">
+        <h2>Laboratory Visit Registration</h2>
+        <p>Fill in this form to book a place for the chemistry laboratory visit. Fields marked <strong>required</strong> must be completed.</p>
+        <!-- The form uses POST so personal details are not shown in the URL. Server-side validation is still needed when this is hosted. -->
+        <form action="https://example.edu/chemistry/register" method="post" enctype="multipart/form-data">
+          <fieldset>
+            <legend>Personal details</legend>
+            <label for="full-name">Full name (required, 3&ndash;60 characters)</label>
+            <input type="text" id="full-name" name="full_name" required minlength="3" maxlength="60" autocomplete="name">
+            <label for="email">Email address (required)</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <label for="phone">Mobile number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" aria-describedby="phone-hint" autocomplete="tel">
+            <span class="hint" id="phone-hint">Format: 10 digits, for example 9876543210.</span>
+            <label for="visit-date">Preferred visit date</label>
+            <input type="date" id="visit-date" name="visit_date" min="2026-11-01" max="2026-11-30" required>
+            <label for="visitors">Number of visitors (1&ndash;4)</label>
+            <input type="number" id="visitors" name="visitors" min="1" max="4" value="1" required>
+          </fieldset>
+          <fieldset class="choice">
+            <legend>Mode of visit</legend>
+            <input type="radio" id="mode-campus" name="visit_mode" value="campus" checked>
+            <label for="mode-campus">On campus</label>
+            <input type="radio" id="mode-online" name="visit_mode" value="online">
+            <label for="mode-online">Online session</label>
+          </fieldset>
+          <fieldset class="choice">
+            <legend>Areas of interest</legend>
+            <input type="checkbox" id="int-analytical" name="interests" value="analytical-chemistry">
+            <label for="int-analytical">Analytical chemistry</label>
+            <input type="checkbox" id="int-env" name="interests" value="environmental-science">
+            <label for="int-env">Environmental science</label>
+            <input type="checkbox" id="int-polymer" name="interests" value="polymer-chemistry">
+            <label for="int-polymer">Polymer chemistry</label>
+          </fieldset>
+          <fieldset>
+            <legend>Session and questions</legend>
+            <label for="session">Session</label>
+            <select id="session" name="session" required>
+              <option value="">Choose a session</option>
+                            <option value="morning">Morning, 10:00 to 12:00</option>
+              <option value="afternoon">Afternoon, 14:00 to 16:00</option>
+            </select>
+            <label for="question">Question for the faculty</label>
+            <textarea id="question" name="question" rows="4" cols="40" maxlength="300"></textarea>
+            <label for="idcard">Upload college or school ID card (optional)</label>
+            <input type="file" id="idcard" name="idcard" accept=".pdf,.jpg,.png" aria-describedby="file-hint">
+            <span class="hint" id="file-hint">PDF, JPG or PNG, up to 2 MB.</span>
+          </fieldset>
+          <button type="submit">Submit registration</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p><small>&copy; <time datetime="2026">2026</time> Department of Chemistry, SRM TRP Engineering College. Student project for 2611CSSJ102 Web Essentials.</small></p>
+    </footer>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Address, email, telephone and office hours of the Department of Chemistry.">
+    <title>Contact | Department of Chemistry</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip" href="#main-content">Skip to main content</a>
+    <header>
+      <h1>Department of Chemistry (Science &amp; Humanities)</h1>
+      <p>SRM TRP Engineering College, Tiruchirappalli</p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><a href="evidence.html">Unit 1 Evidence</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section id="contact-details">
+        <h2>Contact Us</h2>
+        <p><a href="#office-hours">Jump to office hours</a></p>
+        <address>
+          Department of Chemistry (Science &amp; Humanities)<br>
+          SRM TRP Engineering College, Science and Humanities Block<br>
+          Tiruchirappalli, Tamil Nadu
+        </address>
+        <ul>
+          <li>Email: <a href="mailto:chemistry@example.edu">chemistry@example.edu</a></li>
+          <li>Telephone: <a href="tel:+914310000000">+91 431 000 0000</a></li>
+          <li>Prospectus: <a href="documents/chemistry-prospectus-2026.pdf" download>Download the 2026 prospectus (PDF, small file)</a></li>
+          <li>Map: <a href="https://www.openstreetmap.org/#map=13/10.8050/78.6856" target="_blank" rel="noopener">View Tiruchirappalli on OpenStreetMap (opens in a new tab)</a></li>
+        </ul>
+        <p class="hint">The external link uses <code>rel="noopener"</code> so the new tab cannot control this page through <code>window.opener</code>.</p>
+      </section>
+      <section id="office-hours">
+        <h2>Office Hours</h2>
+        <table>
+          <caption>Table 2: Department office hours</caption>
+          <thead>
+            <tr><th scope="col">Day</th><th scope="col">Hours</th></tr>
+          </thead>        <tr><th scope="row">Port</th><td>443</td><td>Default HTTPS port (optional)</td></tr>
+              <tr><th scope="row">Path</th><td>/courses.html</td><td>File requested on the server</td></tr>
+              <tr><th scope="row">Query</th><td>?level=ug</td><td>Extra data sent to the server</td></tr>
+              <tr><th scope="row">Fragment</th><td>#course-table</td><td>Section of the page to scroll to</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3>Relative paths</h3>
+        <ul>
+          <li><code>images/chem-lab.png</code> in about.html: the browser joins it with the current folder, giving <code>http://localhost:8000/images/chem-lab.png</code>.</li>
+          <li><code>contact.html#office-hours</code>: opens contact.html in the same folder and scrolls to the element with <code>id="office-hours"</code>.</li>
+        </ul>
+      </section>
+      <section id="environment">
+        <h2>Development Environment</h2>
+        <p>Editor: Visual Studio Code. Browser: Google Chrome. Local server: Python <code>http.server</code> (XAMPP Apache works the same way).</p>
+        <pre><code>cd chemistry-site
+python -m http.server 8000
+# open http://localhost:8000/index.html</code></pre>
+          <p>After each change, I saved the file and refreshed the browser (Ctrl + R). The localhost screenshot is in the report.</p>
+        </section>
+        <section id="hosting">
+          <h2>Hosting Recommendation</h2>
+          <p>I recommend <strong>shared hosting</strong>. The site is small and static, traffic is a few hundred visits a day, and shared hosting is the cheapest option with the least administration. A VPS or dedicated server gives 
+more control and scalability, but the department does not need it yet.</p>
+          <p>The <strong>domain name</strong> gives a readable address, <strong>DNS records</strong> (A record) point the name to the server&rsquo;s IP address, the <strong>hosting server</strong> stores and serves the files, and 
+the <strong>control panel</strong> manages files, SSL certificates and email.</p>
+        </section>
+        <section id="security">
+          <h2>Security Considerations</h2>
+          <ul>
+            <li>Use HTTPS so form data is encrypted in transit.</li>
+            <li>No passwords or secrets are placed in HTML comments or hidden inputs.</li>
+            <li>Browser validation (required, pattern, min/max) helps users, but the server must validate again.</li>
+            <li>Future database code must use parameterised queries to prevent SQL injection.</li>
+            <li>Uploaded files must be checked for type and size and stored outside the web root.</li>
+            <li>Any user input shown back on a page must be escaped to prevent XSS.</li>
+            <li>The form collects only the data needed for the visit.</li>
+            <li>The hosting account uses a strong password and two-factor authentication.</li>
+          </ul>
+        </section>
+        <section id="sources">
+          <h2>Sources</h2>
+          <ul>
+            <li>All images, the video and the prospectus were created by the student for this project.</li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs: HTML reference</a></li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <p><small>&copy; <time datetime="2026">2026</time> Department of Chemistry, SRM TRP Engineering College. Student project for 2611CSSJ102 Web Essentials.</small></p>
+      </footer>
+    </body>
+  </html>/* Basic readability styles only (permitted by the assignment brief) */
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #1d2733; background: #f6f8fb; }
+header, footer { background: #0e284a; color: #ffffff; padding: 1rem 1.5rem; }
+header h1 { margin: 0; font-size: 1.5rem; }
+header p { margin: 0.2rem 0 0; color: #ffc43d; }
+nav ul { list-style: none; margin: 0.8rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+nav a { color: #ffffff; padding: 0.3rem 0.7rem; border-radius: 4px; }
+nav a[aria-current="page"] { background: #ffc43d; color: #0e284a; font-weight: bold; }
+main { max-width: 960px; margin: 0 auto; padding: 1rem 1.5rem 2rem; background: #ffffff; }
+a { color: #0a5c8a; }
+header a, footer a { color: #ffffff; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 0; background: #ffc43d; color: #0e284a; padding: 0.5rem; }a:focus, input:focus, select:focus, textarea:focus, button:focus { outline: 3px solid #e07a00; outline-offset: 2px; }
+img, video { max-width: 100%; height: auto; }
+figure { margin: 1rem 0; }
+figcaption, .hint { font-size: 0.9rem; color: #4a5a6e; }
+/* Fix for test T12: keep wide tables and long URLs readable on small screens */
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+caption { font-weight: bold; text-align: left; padding: 0.4rem 0; }
+th, td { border: 1px solid #b8c4d2; padding: 0.4rem 0.6rem; text-align: left; }
+thead th { background: #dbe6f3; }
+tbody th { background: #eef3fa; }
+fieldset { margin: 1rem 0; border: 1px solid #b8c4d2; padding: 0.8rem 1rem; }
+legend { font-weight: bold; padding: 0 0.4rem; }
+label { display: block; margin-top: 0.7rem; font-weight: bold; }
+.choice label { display: inline; font-weight: normal; margin-right: 1rem; }
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="number"], select, textarea { display: block; width: 100%; max-width: 420px; padding: 0.4rem; margin-top: 0.2rem; box-sizing: border-box; }
+input:user-invalid, select:user-invalid { border: 2px solid #b00020; }
+button { margin-top: 0.5rem; padding: 0.6rem 1.2rem; background: #0e284a; color: #ffffff; border: 0; border-radius: 4px; font-size: 1rem; }
+code { overflow-wrap: anywhere; }
+pre { background: #eef2f8; padding: 0.8rem; overflow-x: auto; }
+blockquote { border-left: 4px solid #ffc43d; margin: 1rem 0; padding: 0.2rem 1rem; background: #fff9e8; }<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Student Registration</title>
+</head>
+<body>
+<h2 align="center">Student Registration Form</h2>
+<form action="register.php" method="post">
+<legend>Student Details</legend>
+<table>
+<tr><td><label>Name:</label></td>
+<td><input type="text" name="name" required></td></tr>
+<tr><td><label>Register No:</label></td>
+<td><input type="text" name="regno" required></td></tr>
+<tr><td><label>Email:</label></td>
+<td><input type="email" name="email" required></td></tr>
+<tr><td><label>Password:</label></td>
+<td><input type="password" name="pwd" minlength="8"></td></tr><tr><td><label>Date of Birth:</labelv/td、
+<td><input type="date" name="dob"></td></tr>
+<tr><td>Gender:</td>
+<td><input type="radio" name="gender" value="M"> Male
+<input type="radio" name="gender" value="F"> Female</td></tr>
+<tr><td>Department:</td>
+<td><select name="dept">
+<option>CSE</option><option>AI&amp;DS</option>
+<option>ECE</option><option>EEE</option>
+</select></td></tr>
+<tr><td>Hobbies:</td>
+Reading</td></tr>
+<td><input type="checkbox" name="hobby" value="sports"> Sports
+<input type="checkbox" name="hobby" value="music"> Music
+<input type="checkbox" name="hobby" value="reading">
+<tr><td>Address:</td>
+<td><textarea name="address" rows="3" cols="25"></textarea></td></tr>
+<tr><td></td>
+</table>
+<td><input type="submit" value="Register">
+</fieldset>
+<input type="reset" value="Clear"></td></tr>
+</form>
+</body>
+</html>
+3. Apply suitable network topologies to differ
